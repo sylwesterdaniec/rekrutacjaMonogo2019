@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div data-ng-include=" 'app/templates/navbar.html' "></div>
+  </div>
+  <div id="mapContainer" class="row">
+
+    <h3> Wyszukaj lokalizację</h3> <br/>
+    
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <div id="map" class="col-xs-12"></div>
+    <script src="/app/scripts/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5zDvSFwA-5MEk3XycVS6A4qGedtD5CBc&libraries=places&callback=initAutocomplete"
+         async defer></script>
+           
+  </div>  
+  <div class="row">
+    <div data-ng-include=" 'app/templates/footer.html' "></div>
+  </div>
+</div>

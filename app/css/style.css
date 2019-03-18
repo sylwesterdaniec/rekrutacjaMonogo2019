@@ -1,0 +1,56 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-text, header {
+  text-align: center;
+}
+
+.navbar-right .dropdown-menu {
+  right: auto;
+  left: 0;
+}
+
+.color {
+  color: #499343;
+  font-size: 100%;
+}
+
+p {
+  font-size: 120%;
+}
+
+.profilePhoto {
+  height: 50%;
+  width: 50%;
+  float: center;
+}
+
+.text {
+  text-align: justify;
+}
+
+#mapContainer {
+  padding: 5%;
+
+}
+
+#pac-input {
+  width: 70%;
+  padding-right: 5%;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  padding: 1%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
